@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top ul li {
+    display: inline-block;
+    margin: 3px;
+    padding: 1rem;
+    border: 1px;
+    color: #fff;
+
+}
+
+.top ul {
+    list-style: none;
+}
+
+.top {
+    background-color: rgb(74, 117, 248);
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.top ul li :hover {
+    background:  rgb(247, 87, 87);
+}
+.nav ul li{
+    display: inline-block;
+    margin: 6px;
+    padding: 1px;
+    color: #fff;
+}
+.nav{
+    list-style: none;
+    background-color:  rgb(74, 117, 248);
+}
+.nav a {
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 25px;
+    }
+    .nav ul li :hover{
+        background-color: rgb(247, 87, 87);
+    }
